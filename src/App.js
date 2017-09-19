@@ -14,14 +14,11 @@ class App extends Component {
         </div>
         <div className="Todo-App">
           <TodoForm />
-          <TodoList todos={this.props.todos} />
-          <div className="Todo-List">
-            
-          </div>
+          <TodoList />
         </div>
       </div>
     );
   }
 }
 
-export default App;
+export default App
